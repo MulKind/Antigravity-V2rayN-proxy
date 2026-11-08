@@ -1,0 +1,11 @@
+{
+  "v2rayn-proxy-session-check": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File scripts\\session-check.ps1",
+        "timeout": 10
+      }
+    ]
+  }
+}

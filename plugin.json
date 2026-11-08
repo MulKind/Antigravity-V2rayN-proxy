@@ -1,0 +1,12 @@
+{
+  "name": "v2rayn-proxy",
+  "displayName": "V2RayN Proxy",
+  "description": "Route Antigravity through a local V2RayN proxy: auto-detect the V2RayN inbound port, start V2RayN if needed, and launch Antigravity with proxy flags and HTTP(S)_PROXY env vars; includes status/diagnostic tools and a session-start proxy check.",
+  "version": "1.0.0",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "检查 V2RayN 代理状态，确认 Antigravity 是否通过代理联网",
+    "为 Antigravity 创建通过 V2RayN 代理启动的快捷方式并设置开机自启",
+    "把代理端口改成 10809 并验证能否访问 Google"
+  ]
+}
